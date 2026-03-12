@@ -5,8 +5,8 @@
 # Developed by Denis Astahov in 2024
 #--------------------------------------------------------------------
 # https://grafana.com/grafana/download
-GRAFANA_VERSION="10.4.2"
-PROMETHEUS_URL="http://172.31.29.90:9090"
+GRAFANA_VERSION="12.4.1"
+PROMETHEUS_URL="http://10.1.1.90:9090"
 
 
 apt-get install -y apt-transport-https software-properties-common wget
