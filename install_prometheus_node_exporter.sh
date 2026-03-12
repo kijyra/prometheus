@@ -5,7 +5,7 @@
 # Developed by Denis Astahov in 2024
 #--------------------------------------------------------------------
 # https://github.com/prometheus/node_exporter/releases
-NODE_EXPORTER_VERSION="1.7.0"
+NODE_EXPORTER_VERSION="1.10.2"
 
 cd /tmp
 wget https://github.com/prometheus/node_exporter/releases/download/v$NODE_EXPORTER_VERSION/node_exporter-$NODE_EXPORTER_VERSION.linux-amd64.tar.gz
@@ -40,3 +40,4 @@ systemctl start node_exporter
 systemctl enable node_exporter
 systemctl status node_exporter
 node_exporter --version
+
